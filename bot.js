@@ -5,7 +5,7 @@ const prefix = "$"
 
 
 
-//////ﬂÊœ ÿ—œ «·»Ê «  
+//////√ü√¶√è √ò√ë√è √á√°√à√¶√ä√á√ä 
 let antihack = JSON.parse(fs.readFileSync('./antihack.json' , 'utf8'));//require antihack.json file
 client.on('message', message => {
     if(message.content.startsWith(prefix + "toggleAntihack")) {
@@ -157,7 +157,7 @@ client.on('message', message => {
 antibots[message.guild.id] = {
 onoff: 'On',
 }
-message.channel.send(`**‚úÖ The AntiBots Is ON!**`)
+message.channel.send(`**√¢≈ì‚Ä¶ The AntiBots Is ON!**`)
           fs.writeFile("./antibots.json", JSON.stringify(antibots), (err) => {
             if (err) console.error(err)
             .catch(err => {
@@ -199,7 +199,7 @@ console.error(err);
 });
 })
 
-//////ﬂÊœ „‰⁄ «· Œ—Ì»
+//////√ü√¶√è √£√§√ö √á√°√ä√é√ë√≠√à
 
 var config = {
   events: [
